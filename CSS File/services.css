@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat' sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #24315E;
+    overflow-x: hidden;
+}
+
+section .box1 {
+    height: 25vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    overflow-x: hidden;
+}
+
+section .box1 #services {
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+section .box1 #do {
+    font-weight: 800;
+    font-size: 26px;
+    color: #24315E;
+}
+
+section .box1 #para {
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+@media(max-width:1025px)
+{
+    section{
+        height: 90vh;
+    }
+    section .box1 {
+        margin: 0 auto;
+        height: 20vh;
+        width: 80%;
+    }
+    section .box1 #services {
+        font-size: 18px;
+    }
+    
+    section .box1 #do {
+        font-size: 25px;
+    }
+    
+    section .box1 #para {
+        font-weight: 800;
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:769px)
+{
+    section{
+        height: 100vh;
+        display: block;
+    }
+    section .box1 {
+        margin: 0 auto;
+        height: 20vh;
+        width: 80%;
+    }
+    section .box1 #services {
+        font-size: 14px;
+    }
+    
+    section .box1 #do {
+        font-size: 18px;
+    }
+    
+    section .box1 #para {
+        text-transform: capitalize;
+        font-size: 12px;
+        font-weight: 800;
+    }
+}
+
+@media(max-width:430px)
+{
+    section{
+        height: 140vh;
+        display: block;
+    }
+    section .box1 {
+        height: 25vh;
+        width: 100%;
+    }
+    section .box1 #services {
+        font-size: 14px;
+    }
+    
+    section .box1 #do {
+        font-size: 18px;
+    }
+    
+    section .box1 #para {
+        text-transform: capitalize;
+        font-size: 12px;
+        font-weight: 800;
+    }
+}
+
+section .box2 {
+    margin: 0 auto;
+    height: 45vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #24315E;
+    border: none;
+    border-radius: 20px;
+    color: gainsboro;
+    font-weight: bolder;
+}
+
+section .box2 #box1 {
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+}
+section .box2 #box1 img:hover{
+    scale: 1.3;
+    transition: .5s;
+}
+section .box2 #box1 img {
+    width: 20vh;
+}
+
+section .box2 #box1 p {
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+section .box2 #box2 {
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+}
+
+section .box2 #box2 img {
+    width: 20vh;
+}
+section .box2 #box2 img:hover{
+    scale: 1.3;
+    transition: .5s;
+}
+section .box2 #box2 p {
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+section .box2 #box3 {
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+}
+
+section .box2 #box3 img {
+    width: 20vh;
+}
+section .box2 #box3 img:hover{
+    scale: 1.3;
+    transition: .5s;
+}
+section .box2 #box3 p {
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+section .box2 #box4 {
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+}
+
+section .box2 #box4 img {
+    width: 35vh;
+}
+section .box2 #box4 img:hover{
+    scale: 1.3;
+    transition: .5s;
+}
+section .box2 #box4 p {
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+@media(max-width:1025px)
+{
+    section .box2 {
+        height: 60vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+    }
+    section .box2 #box1 {
+        height: 25vh;
+        width: 40vh;
+    }
+    section .box2 #box1 img {
+        width: 15vh;
+    }
+    
+    section .box2 #box1 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    
+    section .box2 #box2 {
+        height: 25vh;
+        width: 40vh;
+    }
+    
+    section .box2 #box2 img {
+        width: 15vh;
+    }
+    section .box2 #box2 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box2 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    
+    section .box2 #box3 {
+        height: 25vh;
+        width: 40vh;
+    }
+    
+    section .box2 #box3 img {
+        width: 15vh;
+    }
+    section .box2 #box3 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box3 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    
+    section .box2 #box4 {
+        height: 25vh;
+        width: 40vh;
+    }
+    
+    section .box2 #box4 img {
+        width: 25vh;
+    }
+    section .box2 #box4 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box4 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:769px)
+{
+    section .box2 {
+        height: 75vh;
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto auto;
+        border-radius: 10px;
+    }
+    section .box2 #box1 {
+        height: 30vh;
+        width: 40vh;
+    }
+    section .box2 #box1 img {
+        width: 15vh;
+    }
+    
+    section .box2 #box1 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    
+    section .box2 #box2 {
+        height: 30vh;
+        width: 40vh;
+    }
+    
+    section .box2 #box2 img {
+        width: 15vh;
+    }
+    section .box2 #box2 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box2 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    
+    section .box2 #box3 {
+        height: 30vh;
+        width: 40vh;
+    }
+    
+    section .box2 #box3 img {
+        width: 15vh;
+    }
+    section .box2 #box3 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box3 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    
+    section .box2 #box4 {
+        height: 30vh;
+        width: 40vh;
+    }
+    
+    section .box2 #box4 img {
+        width: 25vh;
+    }
+    section .box2 #box4 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box4 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:430px)
+{
+    section .box2 {
+        height: 110vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    section .box2 #box1 {
+        height: 25vh;
+        width: 40vh;
+    }
+    section .box2 #box1 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box1 img {
+        width: 15vh;
+    }
+    
+    section .box2 #box1 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    
+    section .box2 #box2 {
+        height: 25vh;
+        width: 40vh;
+    }
+    
+    section .box2 #box2 img {
+        width: 15vh;
+    }
+    section .box2 #box2 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box2 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    
+    section .box2 #box3 {
+        height: 25vh;
+        width: 40vh;
+    }
+    
+    section .box2 #box3 img {
+        width: 15vh;
+    }
+    section .box2 #box3 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box3 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    
+    section .box2 #box4 {
+        height: 25vh;
+        width: 40vh;
+    }
+    
+    section .box2 #box4 img {
+        width: 25vh;
+    }
+    section .box2 #box4 img:hover{
+        scale: 1.3;
+        transition: .5s;
+    }
+    section .box2 #box4 p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+
+}
