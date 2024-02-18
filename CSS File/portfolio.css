@@ -153,6 +153,7 @@ html{
 }
 .portofolio #box2 ul li a:hover{
     color: blue;
+    cursor:pointer;
 }
 
 @media(max-width:1025px)
