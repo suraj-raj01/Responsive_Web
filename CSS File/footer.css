@@ -33,6 +33,7 @@ footer #box1{
 footer #box1 #reserve{
     font-size: 20px;
     font-weight: bolder;
+    text-align:center;
     padding: 10px 0px;
 }
 footer #box1 p{
