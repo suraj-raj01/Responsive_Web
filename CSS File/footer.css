@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+footer{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b0aeae;
+    color: #24315E;
+    overflow-x: hidden;
+}
+footer #box1{
+    height: 30vh;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid; */
+}
+footer #box1 #reserve{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+footer #box1 p{
+    padding: 0px 80px;
+}
+footer #box1 #email{
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px 0px 0px 6px;
+}
+footer #box1 #contact{
+    font-weight: bolder;
+    font-size: 18px;
+    margin-right: 100px;
+    padding: 10px 0px 0px 0px;
+}
+
+
+
+footer #box2{
+    height: 20vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid; */
+}
+footer #box2 p{
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 800;
+}
+footer #box2 a {
+    padding: 10px;
+    color: #24315E;
+    font-size: 30px;
+}
+footer #box2 i:hover {
+    text-shadow: 0px 1px 20px white;
+    cursor: pointer;
+    color: white;
+}
+
+@media(max-width:769px)
+{
+    footer{
+        height: 50vh;
+        width: 100%;
+        display: block;
+    }
+    footer #box1{
+        height: 30vh;
+        width: 100%;
+    }
+    footer #box1 #reserve{
+        font-size: 16px;
+    }
+    footer #box1 p{
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    footer #box1 #email{
+        font-weight: bolder;
+        font-size: 16px;
+        padding: 10px 0px 0px 6px;
+    }
+    footer #box1 #contact{
+        font-weight: bolder;
+        font-size: 16px;
+        margin-right: 85px;
+    }
+    footer #box2{
+        height: 20vh;
+        width: 100%;
+    }
+    footer #box2 p{
+        padding: 10px 0px;
+        font-size: 10px;
+        font-weight: 800;
+    }
+    footer #box2 a {
+        padding: 10px;
+        color: #24315E;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:430px)
+{
+    footer{
+        height: 50vh;
+        width: 100%;
+        display: block;
+    }
+    footer #box1{
+        height: 30vh;
+        width: 100%;
+    }
+    footer #box1 #reserve{
+        font-size: 16px;
+    }
+    footer #box1 p{
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    footer #box1 #email{
+        font-weight: bolder;
+        font-size: 16px;
+        padding: 10px 0px 0px 6px;
+    }
+    footer #box1 #contact{
+        font-weight: bolder;
+        font-size: 16px;
+        margin-right: 85px;
+    }
+    footer #box2{
+        height: 20vh;
+        width: 100%;
+    }
+    footer #box2 p{
+        padding: 10px 0px;
+        font-size: 10px;
+        font-weight: 800;
+    }
+    footer #box2 a {
+        padding: 10px;
+        color: #24315E;
+        font-size: 20px;
+    }
+}
