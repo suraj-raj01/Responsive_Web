@@ -120,7 +120,7 @@ section .box1 #para {
     
     section .box1 #para {
         text-transform: capitalize;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
     }
 }
