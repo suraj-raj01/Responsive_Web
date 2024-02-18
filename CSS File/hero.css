@@ -118,8 +118,7 @@ ul {
     }
 
     .navbar #start{
-        display: block;
-        margin-top: -30px;
+        display: none;
     }
     #input:checked~ .navbar{
       display: flex;
