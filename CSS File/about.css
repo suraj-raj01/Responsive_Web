@@ -136,6 +136,7 @@ html {
 }
 .about #box2-box1 p{
     font-size: 16px;
+    padding:0px;
 }
 
 .about #box2-box2 #btn1 {
@@ -268,7 +269,7 @@ html {
     }
     .about #box2-box1 {
         height: 200px;
-        width: 400px;
+        width: 100%;
         padding: 10px 10px;
         display: block;
     }
@@ -283,8 +284,8 @@ html {
         font-weight: bolder;
     }
     .about #box2-box1 p{
-        padding: 10px 0px;
-        font-size: 12px;
+        padding: 15px 0px;
+        font-size: 11px;
         font-weight: 800;
     }
     
