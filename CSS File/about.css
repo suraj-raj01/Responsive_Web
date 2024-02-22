@@ -277,7 +277,7 @@ html {
         margin-left: 0px;
         font-size: 20px;
         color: #24315E;
-        padding: 0px 0px 0px 5px;
+        padding: 0px 0px 0px 0px;
     }
     .about #box2-box1 #line{
         color: #24315E;
@@ -285,12 +285,12 @@ html {
     }
     .about #box2-box1 p{
         padding: 15px 0px;
-        font-size: 11px;
+        font-size: 12px;
         font-weight: 800;
     }
     
     .about #box2-box2 #btn1 {
-        margin-left: 70px;
+        margin-left: 75px;
         padding: 10px 20px;
     }
     .about #box2-box2 #btn2 {
