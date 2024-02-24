@@ -1,17 +1,22 @@
 # Responsive_Web
-<b>
 <br>
-#AUTHOR: SURAJ KUMAR
+<br>
+MADE BY:- SURAJ KUMAR
+<br>
+FRONTEND DEVELOPER 
 <br>
 # PERSONAL_PORTFOLIO 
 <br>
 Technology used :-
 <br> 
-HTML CSS
+HTML
+<br>
+CSS
 <br>
 Website link :-
 <br>
 https://responsive-web-wheat.vercel.app/
+<br>
 This Website can run on multiple devices like
 <br>
 Mobiles
