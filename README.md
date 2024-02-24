@@ -1,6 +1,5 @@
 # Responsive_Web
-<br>
-AUTHOR: SURAJ KUMAR
+<b>
 <br>
 #AUTHOR: SURAJ KUMAR
 <br>
@@ -13,9 +12,9 @@ HTML CSS
 Website link :-
 <br>
 https://responsive-web-wheat.vercel.app/
-This Website can run on multiple devices 
+This Website can run on multiple devices like
 <br>
-Mobile
+Mobiles
 <br>
 laptops
 <br>
