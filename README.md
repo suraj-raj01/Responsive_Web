@@ -1,6 +1,6 @@
 # Responsive_Web
 <br>
-MADE BY:- SURAJ KUMAR
+AUTHOR:- SURAJ KUMAR
 <br>
 FRONTEND DEVELOPMENT
 <br>
