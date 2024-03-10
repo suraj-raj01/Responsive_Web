@@ -160,7 +160,7 @@ ul {
     height: 12vh;
     width: 10vh;
     position: fixed;
-    top: 88vh;
+    top: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -174,13 +174,13 @@ ul {
     border-radius: 50px;
     border: 3px solid;
     padding: 5px 5px;
-    color: red;
+    color: orangered;
 }
 
 .chat #chat {
     font-size: 16px;
     font-weight: bolder;
-    color: red;
+    color: orangered;
 }
 
 /* =============end style chat box================== */
