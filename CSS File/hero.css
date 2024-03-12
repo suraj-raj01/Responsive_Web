@@ -70,6 +70,11 @@ ul {
     background-color: white;
     color: #24315E;
 }
+
+#logo{
+    display: none;
+}
+
 #bars{
     display: none;
 }
@@ -118,6 +123,14 @@ ul {
         background-color: aliceblue;
         cursor: pointer;
     }
+    #logo{
+        display: block;
+        position: absolute;
+        z-index: 20;
+        margin-left: 20px;
+        top: 10px;
+        cursor: pointer;
+    }
 
     .navbar #start{
         display: none;
@@ -156,7 +169,7 @@ ul {
 
 /* ============style chat box================ */
 
-.chat {
+/* .chat {
     height: 12vh;
     width: 10vh;
     position: fixed;
@@ -181,7 +194,7 @@ ul {
     font-size: 16px;
     font-weight: bolder;
     color: orangered;
-}
+} */
 
 /* =============end style chat box================== */
 
@@ -724,4 +737,75 @@ hr {
         width: 260px;
         filter: none;
     }
+}
+
+/* ==============up-down arrow style================= */
+
+
+#up-down{
+    display: block;
+    height: 60px;
+    width: 60px;
+    position: sticky;
+    top: 90vh;
+    left: 95%;
+    z-index: 5;
+    background-color: orangered;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+#up-down i{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 15px 15px;
+    color: white;
+}
+#up-down a{
+    text-decoration: none;
+}
+
+@media(max-width: 1025px)
+{
+ #up-down{
+    height: 60px;
+    width: 60px;
+ }
+}
+
+@media (max-width: 769px)
+{
+    #up-down{
+        height: 50px;
+        width: 50px;
+     }
+}
+
+@media (max-width: 430px)
+{
+    #up-down{
+        height: 50px;
+        width: 50px;
+     }
+}
+
+@media (max-width: 376px)
+{
+    #up-down{
+        height: 40px;
+        width: 40px;
+     }
+}
+
+
+@media (max-width: 325px)
+{
+    #up-down{
+        height: 35px;
+        width: 35px;
+     }
 }
