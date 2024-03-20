@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat' sans-serif;
     box-sizing: border-box;
 }
-html{
+
+html {
     overflow-x: hidden;
 }
-.portofolio{
+
+.portofolio {
     height: 90vh;
     width: 100%;
     display: flex;
@@ -19,7 +22,8 @@ html{
     color: #24315E;
     overflow-x: hidden;
 }
-.portofolio #box1{
+
+.portofolio #box1 {
     height: 15vh;
     width: 80%;
     display: flex;
@@ -29,19 +33,22 @@ html{
     padding: 0px 20px;
     text-align: justify;
 }
-.portofolio #box1 #portf{
+
+.portofolio #box1 #portf {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 20px;
     letter-spacing: 3px;
     color: #24315E;
 }
-.portofolio #box1 #work{
+
+.portofolio #box1 #work {
     color: #24315E;
     font-weight: bolder;
     font-size: 30px;
 }
-.portofolio #box1 #para{
+
+.portofolio #box1 #para {
     text-align: center;
     padding: 10px 30px;
     font-size: 16px;
@@ -49,64 +56,72 @@ html{
     color: #24315E;
 }
 
-@media(max-width:1025px)
-{
-    .portofolio{
+@media(max-width:1025px) {
+    .portofolio {
         height: 80vh;
     }
-    .portofolio #box1{
+
+    .portofolio #box1 {
         height: 20vh;
         width: 100%;
     }
-    .portofolio #box1 #portf{
+
+    .portofolio #box1 #portf {
         font-weight: bolder;
         font-size: 20px;
     }
-    .portofolio #box1 #work{
+
+    .portofolio #box1 #work {
         font-size: 24px;
     }
-    .portofolio #box1 #para{
+
+    .portofolio #box1 #para {
         padding: 10px 15px;
         font-size: 16px;
     }
 }
 
-@media(max-width:769px)
-{
-    .portofolio{
+@media(max-width:769px) {
+    .portofolio {
         height: 170vh;
         display: block;
     }
-    .portofolio #box1{
+
+    .portofolio #box1 {
         height: 20vh;
         width: 100%;
     }
-    .portofolio #box1 #portf{
+
+    .portofolio #box1 #portf {
         font-weight: bolder;
         font-size: 20px;
     }
-    .portofolio #box1 #work{
+
+    .portofolio #box1 #work {
         font-size: 22px;
     }
-    .portofolio #box1 #para{
+
+    .portofolio #box1 #para {
         font-size: 14px;
     }
 }
 
-@media(max-width:430px)
-{
-    .portofolio #box1{
+@media(max-width:430px) {
+    .portofolio #box1 {
         height: 20vh;
         width: 100%;
     }
-    .portofolio #box1 #portf{
+
+    .portofolio #box1 #portf {
         font-weight: bolder;
         font-size: 14px;
     }
-    .portofolio #box1 #work{
+
+    .portofolio #box1 #work {
         font-size: 18px;
     }
-    .portofolio #box1 #para{
+
+    .portofolio #box1 #para {
         padding: 5px 5px;
         font-size: 12px;
         text-align: center;
@@ -114,25 +129,26 @@ html{
     }
 }
 
-@media(max-width:376px)
-{
+@media(max-width:376px) {
 
-    .portofolio #box1{
+    .portofolio #box1 {
         height: 30vh;
     }
-    .portofolio #box1 #work{
+
+    .portofolio #box1 #work {
         font-size: 20px;
     }
 }
 
-.portofolio #box2{
+.portofolio #box2 {
     height: 6vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.portofolio #box2 ul{
+
+.portofolio #box2 ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,87 +157,95 @@ html{
     background-color: transparent;
     height: 6vh;
 }
-.portofolio #box2 ul li{
+
+.portofolio #box2 ul li {
     padding: 0px 20px;
     font-weight: bolder;
     font-size: 16px;
 }
-.portofolio #box2 ul li a{
+
+.portofolio #box2 ul li a {
     text-decoration: none;
     color: #24315E;
 }
-.portofolio #box2 ul li #all{
-    color: blue;
-}
-.portofolio #box2 ul li a:hover{
+
+.portofolio #box2 ul li #all {
     color: blue;
 }
 
-@media(max-width:1025px)
-{
-    .portofolio #box2{
+.portofolio #box2 ul li a:hover {
+    color: blue;
+}
+
+@media(max-width:1025px) {
+    .portofolio #box2 {
         height: 8vh;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .portofolio #box2 ul{
+
+    .portofolio #box2 ul {
         height: 5vh;
     }
-    .portofolio #box2 ul li{
+
+    .portofolio #box2 ul li {
         padding: 0px 10px;
         font-size: 18px;
     }
 }
 
-@media(max-width:769px)
-{
-    .portofolio #box2{
+@media(max-width:769px) {
+    .portofolio #box2 {
         height: 8vh;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .portofolio #box2 ul{
+
+    .portofolio #box2 ul {
         height: 5vh;
     }
-    .portofolio #box2 ul li{
+
+    .portofolio #box2 ul li {
         padding: 0px 10px;
         font-size: 14px;
     }
 }
 
-@media(max-width:430px)
-{
-    .portofolio #box2{
+@media(max-width:430px) {
+    .portofolio #box2 {
         height: 6vh;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .portofolio #box2 ul{
+
+    .portofolio #box2 ul {
         height: 5vh;
     }
-    .portofolio #box2 ul li{
+
+    .portofolio #box2 ul li {
         padding: 0px 10px;
         font-size: 10px;
     }
 }
 
-@media(max-width:376px)
-{
-    .portofolio #box2{
+@media(max-width:376px) {
+    .portofolio #box2 {
         height: 6vh;
     }
-    .portofolio #box2 ul li{
+
+    .portofolio #box2 ul li {
         padding: 0px 8px;
         font-size: 8px;
     }
 }
-.portofolio #box3{
+
+.portofolio #box3 {
     margin: 0 auto;
     height: 45vh;
     width: 85%;
@@ -233,7 +257,7 @@ html{
     box-shadow: 0px 0px 5px #24315E;
 }
 
-.portofolio #box3 #web-development{
+.portofolio #box3 #web-development {
     height: 40vh;
     width: 30%;
     display: flex;
@@ -246,25 +270,32 @@ html{
     background-color: #24315E;
     color: white;
 }
-.portofolio #box3 #web-development img{
+
+.portofolio #box3 #web-development img {
     margin-top: 20px;
+    transition: .5s;
 }
-.portofolio #box3 #web-development img:hover{
+
+.portofolio #box3 #web-development img:hover {
     box-shadow: 0px 0px 10px white;
     border-radius: 7px;
+    transition: .5s;
+    scale: 1.06;
 }
-.portofolio #box3 p{
+
+.portofolio #box3 p {
     font-weight: bolder;
     font-size: 25px;
     color: white;
 }
-.portofolio #box3 video{
+
+.portofolio #box3 video {
     margin-top: -20px;
     transition: .7s ease-in-out;
     border-radius: 10px;
 }
 
-.portofolio #box3 #cpp-development{
+.portofolio #box3 #cpp-development {
     height: 40vh;
     width: 30%;
     display: flex;
@@ -276,116 +307,129 @@ html{
     border-radius: 10px;
     background-color: #24315E;
     color: white;
-}
-.portofolio #box3 #cpp-development img{
-    margin-top: 20px;
-}
-.portofolio #box3 #cpp-development img:hover{
-    box-shadow: 0px 0px 7px white;
-    border-radius: 7px;
-}
-.portofolio #box3 #java-development{
-    height: 40vh;
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    border: none;
-    box-shadow: 0px 0px 5px 0px;
-    border-radius: 10px;
-    background-color: #24315E;
-    color: white;
-}
-.portofolio #box3 #java-development img{
-    margin-top: 20px;
-}
-.portofolio #box3 #java-development img:hover{
-    box-shadow: 0px 0px 10px white;
-    border-radius: 7px;
 }
 
-@media(max-width:1025px)
-{
-    .portofolio #box3{
+.portofolio #box3 #cpp-development img {
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.portofolio #box3 #cpp-development img:hover {
+    box-shadow: 0px 0px 7px white;
+    border-radius: 7px;
+    transition: .5s;
+    scale: 1.06;
+}
+
+.portofolio #box3 #java-development {
+    height: 40vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    background-color: #24315E;
+    color: white;
+}
+
+.portofolio #box3 #java-development img {
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.portofolio #box3 #java-development img:hover {
+    box-shadow: 0px 0px 10px white;
+    border-radius: 7px;
+    transition: .5s;
+    scale: 1.06;
+}
+
+@media(max-width:1025px) {
+    .portofolio #box3 {
         height: 40vh;
         width: 98%;
     }
-    
-    .portofolio #box3 #web-development{
+
+    .portofolio #box3 #web-development {
         height: 30vh;
         width: 30%;
     }
-    .portofolio #box3 p{
+
+    .portofolio #box3 p {
         font-weight: bolder;
         font-size: 15px;
         color: white;
     }
-    
-    .portofolio #box3 img{
+
+    .portofolio #box3 img {
         width: 260px;
     }
-    .portofolio #box3 #cpp-development{
+
+    .portofolio #box3 #cpp-development {
         height: 30vh;
         width: 30%;
     }
-    
-    .portofolio #box3 #java-development{
+
+    .portofolio #box3 #java-development {
         height: 30vh;
         width: 30%;
     }
 }
 
-@media(max-width:769px)
-{
-    .portofolio{
+@media(max-width:769px) {
+    .portofolio {
         height: 130vh;
     }
 
-    .portofolio #box3{
+    .portofolio #box3 {
         margin: 0 auto;
         height: 90vh;
         width: 90%;
         display: grid;
         grid-template-columns: auto auto;
     }
-    
-    .portofolio #box3 #web-development{
+
+    .portofolio #box3 #web-development {
         margin: 0 auto;
         height: 35vh;
         width: 90%;
     }
-    .portofolio #box3 p{
+
+    .portofolio #box3 p {
         font-weight: bolder;
         font-size: 15px;
         color: white;
     }
-    
-    .portofolio #box3 img{
+
+    .portofolio #box3 img {
         margin-top: 10px;
         margin-left: 15px;
         width: 90%;
     }
-    .portofolio #box3 #cpp-development{
+
+    .portofolio #box3 #cpp-development {
         margin: 0 auto;
         height: 35vh;
         width: 90%;
     }
-    
-    .portofolio #box3 #java-development{
+
+    .portofolio #box3 #java-development {
         margin: 0 auto;
         height: 35vh;
         width: 90%;
     }
 }
 
-@media(max-width:430px)
-{
-    .portofolio{
+@media(max-width:430px) {
+    .portofolio {
         height: 160vh;
         display: block;
     }
-    .portofolio #box3{
+
+    .portofolio #box3 {
         height: 120vh;
         width: 85%;
         display: flex;
@@ -393,56 +437,59 @@ html{
         align-items: center;
         justify-content: space-around;
     }
-    
-    .portofolio #box3 #web-development{
+
+    .portofolio #box3 #web-development {
         height: 35vh;
         width: 80%;
     }
-    .portofolio #box3 p{
+
+    .portofolio #box3 p {
         font-weight: bolder;
         font-size: 15px;
         color: white;
     }
-    
-    .portofolio #box3 img{
+
+    .portofolio #box3 img {
         width: 260px;
         margin: auto;
     }
-    .portofolio #box3 #cpp-development{
+
+    .portofolio #box3 #cpp-development {
         height: 35vh;
         width: 80%;
     }
-    
-    .portofolio #box3 #java-development{
+
+    .portofolio #box3 #java-development {
         height: 35vh;
         width: 80%;
     }
 }
 
-@media(max-width:376px)
-{
-    .portofolio{
+@media(max-width:376px) {
+    .portofolio {
         height: 170vh;
     }
-    .portofolio #box3{
+
+    .portofolio #box3 {
         height: 120vh;
     }
-        
-    .portofolio #box3 img{
+
+    .portofolio #box3 img {
         margin-top: 10px;
         margin-left: 15px;
         width: 90%;
     }
 }
 
-.portofolio #box4{
+.portofolio #box4 {
     height: 10vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.portofolio #box4 #btn{
+
+.portofolio #box4 #btn {
     font-size: 16px;
     font-weight: bold;
     border-radius: 10px;
@@ -453,16 +500,16 @@ html{
     padding: 15px 30px;
     transition: .4s;
 }
-.portofolio #box4 #btn:hover{
+
+.portofolio #box4 #btn:hover {
     background-color: white;
     color: #24315E;
     border: 1px solid #24315E;
     transition: .4s;
 }
 
-@media(max-width:769px)
-{
-    .portofolio #box4{
+@media(max-width:769px) {
+    .portofolio #box4 {
         margin: 0 auto;
         height: 8vh;
         width: 80%;
@@ -470,7 +517,8 @@ html{
         justify-content: center;
         align-items: center;
     }
-    .portofolio #box4 #btn{
+
+    .portofolio #box4 #btn {
         margin: 0 auto;
         font-size: 12px;
         padding: 14px 20px;
@@ -478,16 +526,16 @@ html{
     }
 }
 
-@media(max-width:430px)
-{
-    .portofolio #box4{
+@media(max-width:430px) {
+    .portofolio #box4 {
         height: 8vh;
         width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .portofolio #box4 #btn{
+
+    .portofolio #box4 #btn {
         font-size: 12px;
         padding: 14px 20px;
         transition: .4s;

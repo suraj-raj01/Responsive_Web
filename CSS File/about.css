@@ -38,18 +38,19 @@ html {
     background-color: ghostwhite;
     overflow-x: hidden;
 }
-.about #box1 img{
+
+.about #box1 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     filter: drop-shadow(0px 0px 10px #24315E);
 }
 
-@media(max-width:1025px)
-{
+@media(max-width:1025px) {
     .about {
         height: 100vh;
     }
+
     .about #box1 {
         margin: 0 auto;
         width: 390px;
@@ -57,11 +58,11 @@ html {
     }
 }
 
-@media(max-width:769px)
-{
+@media(max-width:769px) {
     .about {
         height: 100vh;
     }
+
     .about #box1 {
         margin: 0 auto;
         width: 290px;
@@ -69,21 +70,21 @@ html {
     }
 }
 
-@media(max-width:550px)
-{
+@media(max-width:550px) {
     .about {
         height: 100vh;
-       display: flex;
-       flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
-@media(max-width:430px){
+@media(max-width:430px) {
     .about {
         height: 100vh;
-       display: flex;
-       flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column-reverse;
     }
+
     .about #box1 {
         margin: 0 auto;
         width: 290px;
@@ -119,23 +120,27 @@ html {
     align-items: center;
     color: #24315E;
 }
-.about #box2-box1 #about{
+
+.about #box2-box1 #about {
     font-size: 30px;
     padding: 0px 10px 0px 0px;
     color: white;
 }
-.about #box2-box1 #line{
+
+.about #box2-box1 #line {
     font-weight: normal;
     color: white;
     margin-top: -16px;
 }
+
 .about #box2-box2 {
     height: 100px;
     width: 500px;
     display: flex;
     align-items: center;
 }
-.about #box2-box1 p{
+
+.about #box2-box1 p {
     font-size: 16px;
 }
 
@@ -173,8 +178,7 @@ html {
     color: white;
 }
 
-@media(max-width:1025px)
-{
+@media(max-width:1025px) {
     .about #box2 {
         height: 48%;
         width: 55%;
@@ -184,39 +188,43 @@ html {
         border-top-width: 10px;
         border-top-color: #24315E;
     }
+
     .about #box2-box1 {
         height: 200px;
         width: 400px;
         padding: 8px 5px;
         display: block;
     }
-    .about #box2-box1 #about{
+
+    .about #box2-box1 #about {
         margin-left: 4px;
         font-size: 22px;
         color: #24315E;
         padding: 0px 0px 0px 5px;
     }
-    .about #box2-box1 #line{
+
+    .about #box2-box1 #line {
         color: #24315E;
         font-weight: bolder;
     }
-    .about #box2-box1 p{
+
+    .about #box2-box1 p {
         padding: 5px 8px;
         font-size: 16px;
         font-weight: 800;
     }
-    
+
     .about #box2-box2 #btn1 {
         margin-left: 70px;
         padding: 10px 20px;
     }
+
     .about #box2-box2 #btn2 {
         padding: 10px 20px;
     }
 }
 
-@media(max-width:769px)
-{
+@media(max-width:769px) {
     .about #box2 {
         height: 360px;
         width: 55%;
@@ -226,38 +234,43 @@ html {
         border-top-width: 10px;
         border-top-color: #24315E;
     }
+
     .about #box2-box1 {
         height: 200px;
         width: 400px;
         padding: 10px 10px;
         display: block;
     }
-    .about #box2-box1 #about{
+
+    .about #box2-box1 #about {
         margin-left: 7px;
         font-size: 20px;
         color: #24315E;
         padding: 0px 0px 0px 5px;
     }
-    .about #box2-box1 #line{
+
+    .about #box2-box1 #line {
         color: #24315E;
         font-weight: bolder;
     }
-    .about #box2-box1 p{
+
+    .about #box2-box1 p {
         padding: 10px 12px;
         font-size: 14px;
         font-weight: 800;
     }
-    
+
     .about #box2-box2 #btn1 {
         margin-left: 70px;
         padding: 10px 20px;
     }
+
     .about #box2-box2 #btn2 {
         padding: 10px 20px;
     }
 }
 
-@media(max-width:430px){
+@media(max-width:430px) {
     .about #box2 {
         height: 330px;
         width: 93%;
@@ -267,90 +280,104 @@ html {
         border-top-width: 10px;
         border-top-color: #24315E;
     }
+
     .about #box2-box1 {
         height: 200px;
         width: 400px;
         padding: 10px 10px;
         display: block;
     }
-    .about #box2-box1 #about{
+
+    .about #box2-box1 #about {
         margin-left: 7px;
         font-size: 20px;
         color: #24315E;
         padding: 0px 0px 0px 5px;
     }
-    .about #box2-box1 #line{
+
+    .about #box2-box1 #line {
         color: #24315E;
         font-weight: bolder;
     }
-    .about #box2-box1 p{
+
+    .about #box2-box1 p {
         padding: 10px 12px;
         font-size: 12px;
         font-weight: 800;
     }
-    
+
     .about #box2-box2 #btn1 {
         margin-left: 70px;
         padding: 10px 20px;
     }
+
     .about #box2-box2 #btn2 {
         padding: 10px 20px;
     }
-    
+
 }
-@media(max-width:376px)
-{
+
+@media(max-width:376px) {
     .about #box2 {
         height: 380px;
         width: 100%;
     }
-    .about #box2-box1 #about{
+
+    .about #box2-box1 #about {
         font-size: 16px;
         color: #24315E;
     }
-    .about #box2-box1 #line{
+
+    .about #box2-box1 #line {
         padding: 0 5px;
         margin-top: -8px;
     }
-    .about #box2-box1 p{
+
+    .about #box2-box1 p {
         padding: 10px 15px;
         font-size: 12px;
         font-weight: 800;
     }
-    
+
     .about #box2-box2 #btn1 {
         margin-left: 80px;
         padding: 10px 20px;
     }
+
     .about #box2-box2 #btn2 {
         padding: 10px 20px;
     }
 }
-@media(max-width:320px)
-{
+
+@media(max-width:320px) {
     .about #box2 {
         height: 50%;
         width: 90%;
     }
-    .about #box2-box1 #about{
+
+    .about #box2-box1 #about {
         font-size: 14px;
         color: #24315E;
         margin-left: 75px;
     }
-    .about #box2-box1 #line{
+
+    .about #box2-box1 #line {
         padding: 0 5px;
         margin-top: -8px;
     }
-    .about #box2-box1 p{
+
+    .about #box2-box1 p {
         padding: 10px 80px;
         font-size: 12px;
         font-weight: 800;
     }
+
     .about #box2-box2 #btn1 {
         margin-left: 140px;
         padding: 5px 5px;
         font-size: 10px;
     }
+
     .about #box2-box2 #btn2 {
         padding: 5px 5px;
         font-size: 10px;
