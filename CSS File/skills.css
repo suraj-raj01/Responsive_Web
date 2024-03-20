@@ -51,6 +51,7 @@ html {
 .skills .skill-box1 #para {
     font-size: 18px;
     text-align: center;
+    font-weight: bold;
     padding: 10px 100px;
 }
 

@@ -43,8 +43,9 @@ section .box1 #do {
 }
 
 section .box1 #para {
-    text-align: justify;
+    text-align: center;
     font-size: 16px;
+    font-weight: bold;
     text-transform: capitalize;
 }
 

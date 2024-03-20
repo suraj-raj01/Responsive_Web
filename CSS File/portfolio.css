@@ -45,6 +45,7 @@ html{
     text-align: center;
     padding: 10px 30px;
     font-size: 16px;
+    font-weight: bold;
     color: #24315E;
 }
 
@@ -108,8 +109,8 @@ html{
     .portofolio #box1 #para{
         padding: 5px 5px;
         font-size: 12px;
-        text-align: justify;
-        font-weight: normal;
+        text-align: center;
+        font-weight: bold;
     }
 }
 
