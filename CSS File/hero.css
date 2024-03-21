@@ -51,6 +51,7 @@ ul {
 
 .navbar a:hover {
     color: blue;
+    text-decoration: underline;
     transition: .5s;
 }
 
@@ -255,7 +256,6 @@ ul {
 .hero #box1 #box-1 #name {
     font-weight: 800;
     font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* color: #969697; */
 }
 
@@ -267,7 +267,6 @@ ul {
     border: none;
     box-shadow: none;
     color: #24315E;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .hero #box1 #box-1 #email a {
