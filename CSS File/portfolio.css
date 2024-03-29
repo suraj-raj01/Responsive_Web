@@ -37,7 +37,7 @@ html {
 .portofolio #box1 #portf {
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 3px;
     color: #24315E;
 }
@@ -45,7 +45,8 @@ html {
 .portofolio #box1 #work {
     color: #24315E;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 .portofolio #box1 #para {
@@ -54,6 +55,7 @@ html {
     font-size: 16px;
     font-weight: bold;
     color: #24315E;
+    text-transform: uppercase;
 }
 
 @media(max-width:1025px) {

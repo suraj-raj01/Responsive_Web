@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 /* ===========================navbar start============================= */
@@ -68,6 +68,7 @@ ul {
 }
 
 .navbar #end a:hover {
+    text-decoration: none;
     background-color: white;
     color: #24315E;
 }
@@ -418,7 +419,7 @@ ul {
     }
 
     .hero #box1 {
-        margin: 10px auto;
+        margin: 0 auto;
         height: 40%;
         width: 60%;
     }
@@ -457,7 +458,7 @@ ul {
 
 @media(max-width:550px) {
     .hero #box1 {
-        margin: 10px auto;
+        margin: 0 auto;
         height: 40%;
         width: 80%;
     }
@@ -469,12 +470,12 @@ ul {
 
     .hero #box1 #box-1 #name {
         font-weight: 800;
-        font-size: 18px;
+        font-size: 25px;
         /* color: #969697; */
     }
 
     .hero #box1 #box-1 #name span {
-        font-size: 18px;
+        font-size: 25px;
     }
 }
 
@@ -485,28 +486,28 @@ ul {
     }
 
     .hero #box1 {
-        margin: 10px auto;
+        margin: 0 auto;
         height: 38%;
         width: 87%;
     }
 
     .hero #box1 #box-1 #greet {
         font-weight: 800;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .hero #box1 #box-1 #name {
         font-weight: 800;
-        font-size: 18px;
+        font-size: 30px;
         /* color: #969697; */
     }
 
     .hero #box1 #box-1 #name span {
-        font-size: 18px;
+        font-size: 30px;
     }
 
     .hero #box1 #box-1 #email a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .hero #box1 #box-1 button {
@@ -535,12 +536,51 @@ ul {
         font-size: 12px;
     }
 }
+@media(max-width:376px)
+{
+    .hero #box1 #box-1 #greet {
+        font-weight: 800;
+        font-size: 18px;
+    }
 
+    .hero #box1 #box-1 #name {
+        font-weight: 800;
+        font-size: 25px;
+        /* color: #969697; */
+    }
+
+    .hero #box1 #box-1 #name span {
+        font-size: 25px;
+    }
+
+    .hero #box1 #box-1 #email a {
+        font-size: 12px;
+    }
+}
 @media(max-width:320px) {
     .hero #box1 {
         height: 38%;
         width: 90%;
     }
+    .hero #box1 #box-1 #greet {
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .hero #box1 #box-1 #name {
+        font-weight: 800;
+        font-size: 20px;
+        /* color: #969697; */
+    }
+
+    .hero #box1 #box-1 #name span {
+        font-size: 20px;
+    }
+
+    .hero #box1 #box-1 #email a {
+        font-size: 12px;
+    }
+
 }
 
 

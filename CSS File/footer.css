@@ -44,6 +44,8 @@ footer #box1 #reserve {
 footer #box1 p {
     padding: 0px 40px;
     font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 footer #box1 #email {
@@ -158,7 +160,7 @@ footer #box2 i:hover {
 
     footer #box1 p {
         font-size: 14px;
-        text-align: justify;
+        text-align: center;
     }
 
     footer #box1 #email {

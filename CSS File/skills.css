@@ -45,15 +45,16 @@ html {
 
 .skills .skill-box1 #work {
     font-weight: 800;
-    font-size: 20px;
+    font-size: 25px;
     color: #24315E;
+    text-transform: uppercase;
 }
 
 .skills .skill-box1 #para {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     font-weight: bold;
-    padding: 10px 100px;
+    text-transform: uppercase;
 }
 
 @media(max-width:1025px) {
@@ -67,7 +68,7 @@ html {
     }
 
     .skills .skill-box1 #para {
-        font-size: 16px;
+        font-size: 14px;
         padding: 10px 20px;
     }
 }
@@ -100,9 +101,9 @@ html {
     }
 
     .skills .skill-box1 #para {
-        font-size: 14px;
+        font-size: 12px;
         padding: 10px 20px;
-        text-align: justify;
+        text-align: center;
     }
 }
 

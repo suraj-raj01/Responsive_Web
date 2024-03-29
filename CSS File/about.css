@@ -128,6 +128,7 @@ html {
     font-size: 30px;
     padding: 0px 10px 0px 0px;
     color: white;
+    text-transform: uppercase;
 }
 
 .about #box2-box1 #line {
@@ -145,16 +146,18 @@ html {
 
 .about #box2-box1 p {
     font-size: 16px;
+    text-transform: uppercase;
 }
 
 .about #box2-box2 #btn1 {
     padding: 10px 20px;
     margin: 0px 20px 0px 0px;
     border-radius: 5px;
-    border: 1px solid #24315E;
+    border: 1px solid transparent;
     background-color: white;
     font-weight: 800;
     color: #24315E;
+    outline: none;
 }
 
 .about #box2-box2 #btn1:hover {
@@ -168,7 +171,7 @@ html {
     padding: 10px 20px;
     margin: 0px 20px 0px 0px;
     border-radius: 5px;
-    border: 1px solid #24315E;
+    border: 1px solid transparent;
     font-weight: 800;
     background-color: white;
     color: #24315E;
@@ -209,6 +212,7 @@ html {
     .about #box2-box1 #line {
         color: #24315E;
         font-weight: bolder;
+        font-size: 16px;
     }
 
     .about #box2-box1 p {
@@ -255,6 +259,7 @@ html {
     .about #box2-box1 #line {
         color: #24315E;
         font-weight: bolder;
+        font-size: 16px;
     }
 
     .about #box2-box1 p {
@@ -301,6 +306,7 @@ html {
     .about #box2-box1 #line {
         color: #24315E;
         font-weight: bolder;
+        font-size: 14px;
     }
 
     .about #box2-box1 p {
@@ -312,10 +318,23 @@ html {
     .about #box2-box2 #btn1 {
         margin-left: 70px;
         padding: 10px 20px;
+        background-color: #24315E;
+        color: whitesmoke;
     }
-
+    .about #box2-box2 #btn1:hover{
+        background-color: whitesmoke;
+        color: #24315E;
+        border: 1px solid;
+    }
     .about #box2-box2 #btn2 {
         padding: 10px 20px;
+        background-color: #24315E;
+        color: white;
+    }
+    .about #box2-box2 #btn2:hover{
+        background-color: whitesmoke;
+        color: #24315E;
+        border: 1px solid;
     }
 
 }
@@ -371,7 +390,7 @@ html {
 
     .about #box2-box1 p {
         padding: 10px 80px;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 800;
     }
 
