@@ -19,7 +19,7 @@ html {
     align-items: center;
     justify-content: space-evenly;
     background-color: whitesmoke;
-    color: #24315E;
+    color: black;
     overflow-x: hidden;
 }
 
@@ -39,11 +39,11 @@ html {
     font-weight: bolder;
     font-size: 18px;
     letter-spacing: 3px;
-    color: #24315E;
+    color: black;
 }
 
 .portofolio #box1 #work {
-    color: #24315E;
+    color: black;
     font-weight: bolder;
     font-size: 25px;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ html {
     padding: 10px 30px;
     font-size: 16px;
     font-weight: bold;
-    color: #24315E;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -168,7 +168,7 @@ html {
 
 .portofolio #box2 ul li a {
     text-decoration: none;
-    color: #24315E;
+    color: black;
 }
 
 .portofolio #box2 ul li #all {
@@ -254,9 +254,8 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: ghostwhite;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px #24315E;
+    /* box-shadow: 0px 0px 5px black; */
 }
 
 .portofolio #box3 #web-development {
@@ -269,20 +268,22 @@ html {
     border: none;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
-    background-color: #24315E;
+    background-color: black;
     color: white;
 }
 
 .portofolio #box3 #web-development img {
     margin-top: 20px;
     transition: .5s;
+    border: 1px solid white;
+    border-radius: 7px;
 }
 
 .portofolio #box3 #web-development img:hover {
     box-shadow: 0px 0px 10px white;
     border-radius: 7px;
     transition: .5s;
-    scale: 1.06;
+    scale: 1.02;
 }
 
 .portofolio #box3 p {
@@ -307,20 +308,22 @@ html {
     border: none;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
-    background-color: #24315E;
+    background-color: black;
     color: white;
 }
 
 .portofolio #box3 #cpp-development img {
     margin-top: 20px;
     transition: .5s;
+    border: 1px solid white;
+    border-radius: 7px;
 }
 
 .portofolio #box3 #cpp-development img:hover {
     box-shadow: 0px 0px 7px white;
     border-radius: 7px;
     transition: .5s;
-    scale: 1.06;
+    scale: 1.02;
 }
 
 .portofolio #box3 #java-development {
@@ -333,20 +336,22 @@ html {
     border: none;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
-    background-color: #24315E;
+    background-color: black;
     color: white;
 }
 
 .portofolio #box3 #java-development img {
     margin-top: 20px;
     transition: .5s;
+    border: 1px solid white;
+    border-radius: 7px;
 }
 
 .portofolio #box3 #java-development img:hover {
     box-shadow: 0px 0px 10px white;
     border-radius: 7px;
     transition: .5s;
-    scale: 1.06;
+    scale: 1.02;
 }
 
 @media(max-width:1025px) {
@@ -433,7 +438,7 @@ html {
 
     .portofolio #box3 {
         height: 120vh;
-        width: 85%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -442,7 +447,7 @@ html {
 
     .portofolio #box3 #web-development {
         height: 35vh;
-        width: 80%;
+        width: 85%;
     }
 
     .portofolio #box3 p {
@@ -458,12 +463,12 @@ html {
 
     .portofolio #box3 #cpp-development {
         height: 35vh;
-        width: 80%;
+        width: 85%;
     }
 
     .portofolio #box3 #java-development {
         height: 35vh;
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -495,8 +500,8 @@ html {
     font-size: 16px;
     font-weight: bold;
     border-radius: 10px;
-    border: 1px solid #24315E;
-    background-color: #24315E;
+    border: 1px solid white;
+    background-color: black;
     color: white;
     cursor: pointer;
     padding: 15px 30px;
@@ -505,8 +510,8 @@ html {
 
 .portofolio #box4 #btn:hover {
     background-color: white;
-    color: #24315E;
-    border: 1px solid #24315E;
+    color: black;
+    border: 1px solid black;
     transition: .4s;
 }
 

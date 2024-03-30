@@ -20,7 +20,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: white;
-    color: #24315E;
+    color: black;
     overflow-x: hidden;
 }
 
@@ -80,7 +80,7 @@ footer #box2 p {
 
 footer #box2 a {
     padding: 10px;
-    color: #24315E;
+    color: black;
     font-size: 30px;
 }
 
@@ -136,7 +136,7 @@ footer #box2 i:hover {
 
     footer #box2 a {
         padding: 10px;
-        color: #24315E;
+        color: black;
         font-size: 20px;
     }
 }
@@ -188,7 +188,7 @@ footer #box2 i:hover {
 
     footer #box2 a {
         padding: 10px;
-        color: #24315E;
+        color: black;
         font-size: 20px;
     }
 }

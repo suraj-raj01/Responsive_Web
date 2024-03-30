@@ -15,7 +15,7 @@ section {
     justify-content: space-evenly;
     align-items: center;
     background-color: whitesmoke;
-    color: #24315E;
+    color: black;
     overflow-x: hidden;
 }
 
@@ -24,7 +24,7 @@ section .box1 {
     width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 15px;
     overflow-x: hidden;
@@ -39,8 +39,8 @@ section .box1 #services {
 
 section .box1 #do {
     font-weight: bold;
-    font-size: 26px;
-    color: #24315E;
+    font-size: 25px;
+    color: black;
 }
 
 section .box1 #para {
@@ -127,13 +127,12 @@ section .box1 #para {
 section .box2 {
     margin: 0 auto;
     height: 45vh;
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: ghostwhite;
+    background-color: transparent;
     border: 1px solid;
-    border-radius: 20px;
     color: gainsboro;
     font-weight: bolder;
 }
@@ -145,12 +144,12 @@ section .box2 #box1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0px solid black;
+    border: 1px solid black;
     box-shadow: 0px 0px 5px 0px grey;
     border-radius: 10px;
     cursor: pointer;
     background-color: whitesmoke;
-    color: #24315E;
+    color: black;
 }
 
 section .box2 #box1 img {
@@ -159,7 +158,7 @@ section .box2 #box1 img {
 }
 
 section .box2 #box1 img:hover {
-    scale: 1.3;
+    scale: 1.05;
     transition: .5s;
 }
 
@@ -175,9 +174,8 @@ section .box2 #box2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     border-radius: 10px;
-    border: 0px solid black;
+    border: 1px solid black;
     box-shadow: 0px 0px 5px 0px grey;
     border-radius: 10px;
     cursor: pointer;
@@ -190,7 +188,7 @@ section .box2 #box2 img {
 }
 
 section .box2 #box2 img:hover {
-    scale: 1.3;
+    scale: 1.05;
     transition: .5s;
 }
 
@@ -206,14 +204,13 @@ section .box2 #box3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     border-radius: 10px;
-    border: 0px solid black;
+    border: 1px solid black;
     box-shadow: 0px 0px 5px 0px grey;
     border-radius: 10px;
     cursor: pointer;
-    background-color: whitesmoke;
-    color: #24315E;
+    background-color: gainsboro;
+    color: black;
 }
 
 section .box2 #box3 img {
@@ -222,7 +219,7 @@ section .box2 #box3 img {
 }
 
 section .box2 #box3 img:hover {
-    scale: 1.3;
+    scale: 1.05;
     transition: .5s;
 }
 
@@ -238,9 +235,8 @@ section .box2 #box4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     border-radius: 10px;
-    border: 0px solid black;
+    border: 1px solid black;
     box-shadow: 0px 0px 5px 0px grey;
     border-radius: 10px;
     cursor: pointer;
@@ -253,7 +249,7 @@ section .box2 #box4 img {
 }
 
 section .box2 #box4 img:hover {
-    scale: 1.3;
+    scale: 1.05;
     transition: .5s;
 }
 
@@ -348,7 +344,7 @@ section .box2 #box4 p {
         height: 25vh;
         width: 40vh;
         background-color: whitesmoke;
-        color: #24315E;
+        color: black;
     }
 
     section .box2 #box4 img {
@@ -433,7 +429,7 @@ section .box2 #box4 p {
         height: 30vh;
         width: 40vh;
         background-color: whitesmoke;
-        color: #24315E;
+        color: black;
     }
 
     section .box2 #box4 img {
@@ -502,7 +498,7 @@ section .box2 #box4 p {
         height: 25vh;
         width: 40vh;
         background-color: whitesmoke;
-        color: #24315E;
+        color: black;
     }
 
     section .box2 #box3 img {

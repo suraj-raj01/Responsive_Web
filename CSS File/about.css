@@ -18,7 +18,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
-    color: #24315E;
+    color: black;
     overflow-x: hidden;
 }
 
@@ -28,9 +28,9 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* box-shadow: 0px 0px 15px 1px #24315E;
+    /* box-shadow: 0px 0px 15px 1px black;
     border-radius: 10px;
-    border: 1px solid #24315E;
+    border: 1px solid black;
     border-bottom-left-radius: 90px;
     border-bottom-width: 15px;
     border-top-right-radius: 90px;
@@ -103,7 +103,7 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #24315E;
+    background-color: black;
     color: white;
     overflow-x: hidden;
 }
@@ -121,7 +121,7 @@ html {
     font-size: 30px;
     display: flex;
     align-items: center;
-    color: #24315E;
+    color: black;
 }
 
 .about #box2-box1 #about {
@@ -156,14 +156,14 @@ html {
     border: 1px solid transparent;
     background-color: white;
     font-weight: 800;
-    color: #24315E;
+    color: black;
     outline: none;
 }
 
 .about #box2-box2 #btn1:hover {
     cursor: pointer;
     box-shadow: 0px 0px 5px 0px white;
-    background-color: #24315E;
+    background-color: black;
     color: white;
 }
 
@@ -174,13 +174,13 @@ html {
     border: 1px solid transparent;
     font-weight: 800;
     background-color: white;
-    color: #24315E;
+    color: black;
 }
 
 .about #box2-box2 #btn2:hover {
     cursor: pointer;
     box-shadow: 0px 0px 5px 0px white;
-    background-color: #24315E;
+    background-color: black;
     color: white;
 }
 
@@ -188,11 +188,11 @@ html {
     .about #box2 {
         height: 48%;
         width: 55%;
-        color: #24315E;
+        color: black;
         background-color: transparent;
         border: 10px solid transparent;
         border-top-width: 10px;
-        border-top-color: #24315E;
+        border-top-color: black;
     }
 
     .about #box2-box1 {
@@ -205,12 +205,12 @@ html {
     .about #box2-box1 #about {
         margin-left: 4px;
         font-size: 22px;
-        color: #24315E;
+        color: black;
         padding: 0px 0px 0px 5px;
     }
 
     .about #box2-box1 #line {
-        color: #24315E;
+        color: black;
         font-weight: bolder;
         font-size: 16px;
     }
@@ -235,11 +235,11 @@ html {
     .about #box2 {
         height: 360px;
         width: 55%;
-        color: #24315E;
+        color: black;
         background-color: transparent;
         border: 10px solid transparent;
         border-top-width: 10px;
-        border-top-color: #24315E;
+        border-top-color: black;
     }
 
     .about #box2-box1 {
@@ -252,12 +252,12 @@ html {
     .about #box2-box1 #about {
         margin-left: 7px;
         font-size: 20px;
-        color: #24315E;
+        color: black;
         padding: 0px 0px 0px 5px;
     }
 
     .about #box2-box1 #line {
-        color: #24315E;
+        color: black;
         font-weight: bolder;
         font-size: 16px;
     }
@@ -282,11 +282,11 @@ html {
     .about #box2 {
         height: 330px;
         width: 93%;
-        color: #24315E;
+        color: black;
         background-color: transparent;
         border: 10px solid transparent;
         border-top-width: 10px;
-        border-top-color: #24315E;
+        border-top-color: black;
     }
 
     .about #box2-box1 {
@@ -299,12 +299,12 @@ html {
     .about #box2-box1 #about {
         margin-left: 7px;
         font-size: 20px;
-        color: #24315E;
+        color: black;
         padding: 0px 0px 0px 5px;
     }
 
     .about #box2-box1 #line {
-        color: #24315E;
+        color: black;
         font-weight: bolder;
         font-size: 14px;
     }
@@ -318,22 +318,22 @@ html {
     .about #box2-box2 #btn1 {
         margin-left: 70px;
         padding: 10px 20px;
-        background-color: #24315E;
+        background-color: black;
         color: whitesmoke;
     }
     .about #box2-box2 #btn1:hover{
         background-color: whitesmoke;
-        color: #24315E;
+        color: black;
         border: 1px solid;
     }
     .about #box2-box2 #btn2 {
         padding: 10px 20px;
-        background-color: #24315E;
+        background-color: black;
         color: white;
     }
     .about #box2-box2 #btn2:hover{
         background-color: whitesmoke;
-        color: #24315E;
+        color: black;
         border: 1px solid;
     }
 
@@ -347,7 +347,7 @@ html {
 
     .about #box2-box1 #about {
         font-size: 16px;
-        color: #24315E;
+        color: black;
     }
 
     .about #box2-box1 #line {
@@ -379,7 +379,7 @@ html {
 
     .about #box2-box1 #about {
         font-size: 14px;
-        color: #24315E;
+        color: black;
         margin-left: 75px;
     }
 
