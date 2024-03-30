@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    color: black;
+    color: #23202C;
     overflow-x: hidden;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .contact .box1 #touch {
-    color: black;
+    color: #23202C;
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
@@ -136,7 +136,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
+    background-color: #23202C;
     border-radius: 10px;
     overflow-x: hidden;
 }
@@ -168,7 +168,7 @@
     padding: 0px 18px;
     outline: none;
     border: 1px solid white;
-    background-color: black;
+    background-color: #23202C;
     font-weight: bold;
     color: white;
 }
@@ -181,7 +181,7 @@
     outline: none;
     border: 1px solid white;
     font-weight: bold;
-    background-color: black;
+    background-color: #23202C;
     border-radius: 10px;
     padding: 10px 18px;
     color: white;
@@ -196,17 +196,17 @@
     font-weight: bold;
     border: 1px solid white;
     outline: none;
-    background-color: black;
+    background-color: #23202C;
     color: white;
     transition: .4s;
 }
 
 .contact #box-2 #box-2-box-1 #btn:hover {
     cursor: pointer;
-    color: black;
+    color: #23202C;
     background-color: white;
     transition: .4s;
-    border: 1px solid black;
+    border: 1px solid #23202C;
 }
 
 .contact #box-2 #box-2-box-2 {
@@ -529,9 +529,9 @@
     font-weight: bolder;
     font-size: 30px;
     text-transform: uppercase;
-    color: black;
+    color: #23202C;
     text-shadow: 2px 1px 2px gray;
-    /* border: 1px solid black; */
+    /* border: 1px solid #23202C; */
     padding: 10px 20px;
     background-color: white;
     box-shadow: 0px 0px 2px 1px;

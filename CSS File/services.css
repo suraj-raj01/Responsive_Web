@@ -15,7 +15,7 @@ section {
     justify-content: space-evenly;
     align-items: center;
     background-color: whitesmoke;
-    color: black;
+    color: #23202C;
     overflow-x: hidden;
 }
 
@@ -40,7 +40,7 @@ section .box1 #services {
 section .box1 #do {
     font-weight: bold;
     font-size: 25px;
-    color: black;
+    color: #23202C;
 }
 
 section .box1 #para {
@@ -144,12 +144,12 @@ section .box2 #box1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #23202C;
     box-shadow: 0px 0px 5px 0px grey;
     border-radius: 10px;
     cursor: pointer;
     background-color: whitesmoke;
-    color: black;
+    color: #23202C;
 }
 
 section .box2 #box1 img {
@@ -175,11 +175,11 @@ section .box2 #box2 {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #23202C;
     box-shadow: 0px 0px 5px 0px grey;
     border-radius: 10px;
     cursor: pointer;
-    background-color: black;
+    background-color: #23202C;
 }
 
 section .box2 #box2 img {
@@ -205,12 +205,12 @@ section .box2 #box3 {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #23202C;
     box-shadow: 0px 0px 5px 0px grey;
     border-radius: 10px;
     cursor: pointer;
     background-color: gainsboro;
-    color: black;
+    color: #23202C;
 }
 
 section .box2 #box3 img {
@@ -236,11 +236,11 @@ section .box2 #box4 {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #23202C;
     box-shadow: 0px 0px 5px 0px grey;
     border-radius: 10px;
     cursor: pointer;
-    background-color: black;
+    background-color: #23202C;
 }
 
 section .box2 #box4 img {
@@ -322,7 +322,7 @@ section .box2 #box4 p {
     section .box2 #box3 {
         height: 25vh;
         width: 40vh;
-        background-color: black;
+        background-color: #23202C;
         color: white;
     }
 
@@ -344,7 +344,7 @@ section .box2 #box4 p {
         height: 25vh;
         width: 40vh;
         background-color: whitesmoke;
-        color: black;
+        color: #23202C;
     }
 
     section .box2 #box4 img {
@@ -407,7 +407,7 @@ section .box2 #box4 p {
     section .box2 #box3 {
         height: 30vh;
         width: 40vh;
-        background-color: black;
+        background-color: #23202C;
         color: white;
     }
 
@@ -429,7 +429,7 @@ section .box2 #box4 p {
         height: 30vh;
         width: 40vh;
         background-color: whitesmoke;
-        color: black;
+        color: #23202C;
     }
 
     section .box2 #box4 img {
@@ -498,7 +498,7 @@ section .box2 #box4 p {
         height: 25vh;
         width: 40vh;
         background-color: whitesmoke;
-        color: black;
+        color: #23202C;
     }
 
     section .box2 #box3 img {
@@ -518,7 +518,7 @@ section .box2 #box4 p {
     section .box2 #box4 {
         height: 25vh;
         width: 40vh;
-        background-color: black;
+        background-color: #23202C;
         color: white;
     }
 

@@ -19,7 +19,7 @@ html {
     align-items: center;
     justify-content: space-evenly;
     background-color: whitesmoke;
-    color: black;
+    color: #23202C;
     overflow-x: hidden;
 }
 
@@ -39,11 +39,11 @@ html {
     font-weight: bolder;
     font-size: 18px;
     letter-spacing: 3px;
-    color: black;
+    color: #23202C;
 }
 
 .portofolio #box1 #work {
-    color: black;
+    color: #23202C;
     font-weight: bolder;
     font-size: 25px;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ html {
     padding: 10px 30px;
     font-size: 16px;
     font-weight: bold;
-    color: black;
+    color: #23202C;
     text-transform: uppercase;
 }
 
@@ -168,7 +168,7 @@ html {
 
 .portofolio #box2 ul li a {
     text-decoration: none;
-    color: black;
+    color: #23202C;
 }
 
 .portofolio #box2 ul li #all {
@@ -255,7 +255,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
-    /* box-shadow: 0px 0px 5px black; */
+    /* box-shadow: 0px 0px 5px #23202C; */
 }
 
 .portofolio #box3 #web-development {
@@ -268,7 +268,7 @@ html {
     border: none;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
-    background-color: black;
+    background-color: #23202C;
     color: white;
 }
 
@@ -308,7 +308,7 @@ html {
     border: none;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
-    background-color: black;
+    background-color: #23202C;
     color: white;
 }
 
@@ -336,7 +336,7 @@ html {
     border: none;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
-    background-color: black;
+    background-color: #23202C;
     color: white;
 }
 
@@ -501,7 +501,7 @@ html {
     font-weight: bold;
     border-radius: 10px;
     border: 1px solid white;
-    background-color: black;
+    background-color: #23202C;
     color: white;
     cursor: pointer;
     padding: 15px 30px;
@@ -510,8 +510,8 @@ html {
 
 .portofolio #box4 #btn:hover {
     background-color: white;
-    color: black;
-    border: 1px solid black;
+    color: #23202C;
+    border: 1px solid #23202C;
     transition: .4s;
 }
 

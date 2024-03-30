@@ -18,7 +18,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
-    color: black;
+    color: #23202C;
     overflow-x: hidden;
 }
 
@@ -28,9 +28,9 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* box-shadow: 0px 0px 15px 1px black;
+    /* box-shadow: 0px 0px 15px 1px #23202C;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #23202C;
     border-bottom-left-radius: 90px;
     border-bottom-width: 15px;
     border-top-right-radius: 90px;
@@ -103,8 +103,8 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: transparent;
+    color: #23202C;
     overflow-x: hidden;
 }
 
@@ -121,19 +121,17 @@ html {
     font-size: 30px;
     display: flex;
     align-items: center;
-    color: black;
+    color: #23202C;
 }
 
 .about #box2-box1 #about {
     font-size: 30px;
     padding: 0px 10px 0px 0px;
-    color: white;
     text-transform: uppercase;
 }
 
 .about #box2-box1 #line {
     font-weight: normal;
-    color: white;
     margin-top: -16px;
 }
 
@@ -147,23 +145,24 @@ html {
 .about #box2-box1 p {
     font-size: 16px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .about #box2-box2 #btn1 {
     padding: 10px 20px;
     margin: 0px 20px 0px 0px;
     border-radius: 5px;
-    border: 1px solid transparent;
+    border: 1px solid #23202C;
     background-color: white;
     font-weight: 800;
-    color: black;
+    color: #23202C;
     outline: none;
 }
 
 .about #box2-box2 #btn1:hover {
     cursor: pointer;
     box-shadow: 0px 0px 5px 0px white;
-    background-color: black;
+    background-color: #23202C;
     color: white;
 }
 
@@ -171,16 +170,16 @@ html {
     padding: 10px 20px;
     margin: 0px 20px 0px 0px;
     border-radius: 5px;
-    border: 1px solid transparent;
+    border: 1px solid #23202C;
     font-weight: 800;
     background-color: white;
-    color: black;
+    color: #23202C;
 }
 
 .about #box2-box2 #btn2:hover {
     cursor: pointer;
     box-shadow: 0px 0px 5px 0px white;
-    background-color: black;
+    background-color: #23202C;
     color: white;
 }
 
@@ -188,11 +187,11 @@ html {
     .about #box2 {
         height: 48%;
         width: 55%;
-        color: black;
+        color: #23202C;
         background-color: transparent;
         border: 10px solid transparent;
         border-top-width: 10px;
-        border-top-color: black;
+        border-top-color: #23202C;
     }
 
     .about #box2-box1 {
@@ -205,12 +204,12 @@ html {
     .about #box2-box1 #about {
         margin-left: 4px;
         font-size: 22px;
-        color: black;
+        color: #23202C;
         padding: 0px 0px 0px 5px;
     }
 
     .about #box2-box1 #line {
-        color: black;
+        color: #23202C;
         font-weight: bolder;
         font-size: 16px;
     }
@@ -235,11 +234,11 @@ html {
     .about #box2 {
         height: 360px;
         width: 55%;
-        color: black;
+        color: #23202C;
         background-color: transparent;
         border: 10px solid transparent;
         border-top-width: 10px;
-        border-top-color: black;
+        border-top-color: #23202C;
     }
 
     .about #box2-box1 {
@@ -252,12 +251,12 @@ html {
     .about #box2-box1 #about {
         margin-left: 7px;
         font-size: 20px;
-        color: black;
+        color: #23202C;
         padding: 0px 0px 0px 5px;
     }
 
     .about #box2-box1 #line {
-        color: black;
+        color: #23202C;
         font-weight: bolder;
         font-size: 16px;
     }
@@ -282,11 +281,11 @@ html {
     .about #box2 {
         height: 330px;
         width: 93%;
-        color: black;
+        color: #23202C;
         background-color: transparent;
         border: 10px solid transparent;
         border-top-width: 10px;
-        border-top-color: black;
+        border-top-color: #23202C;
     }
 
     .about #box2-box1 {
@@ -299,12 +298,12 @@ html {
     .about #box2-box1 #about {
         margin-left: 7px;
         font-size: 20px;
-        color: black;
+        color: #23202C;
         padding: 0px 0px 0px 5px;
     }
 
     .about #box2-box1 #line {
-        color: black;
+        color: #23202C;
         font-weight: bolder;
         font-size: 14px;
     }
@@ -318,22 +317,22 @@ html {
     .about #box2-box2 #btn1 {
         margin-left: 70px;
         padding: 10px 20px;
-        background-color: black;
+        background-color: #23202C;
         color: whitesmoke;
     }
     .about #box2-box2 #btn1:hover{
         background-color: whitesmoke;
-        color: black;
+        color: #23202C;
         border: 1px solid;
     }
     .about #box2-box2 #btn2 {
         padding: 10px 20px;
-        background-color: black;
+        background-color: #23202C;
         color: white;
     }
     .about #box2-box2 #btn2:hover{
         background-color: whitesmoke;
-        color: black;
+        color: #23202C;
         border: 1px solid;
     }
 
@@ -347,7 +346,7 @@ html {
 
     .about #box2-box1 #about {
         font-size: 16px;
-        color: black;
+        color: #23202C;
     }
 
     .about #box2-box1 #line {
@@ -379,7 +378,7 @@ html {
 
     .about #box2-box1 #about {
         font-size: 14px;
-        color: black;
+        color: #23202C;
         margin-left: 75px;
     }
 

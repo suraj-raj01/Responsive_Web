@@ -20,7 +20,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
-    color: black;
+    color: #23202C;
     overflow-x: hidden;
 }
 
@@ -46,7 +46,7 @@ html {
 .skills .skill-box1 #work {
     font-weight: 800;
     font-size: 25px;
-    color: black;
+    color: #23202C;
     text-transform: uppercase;
 }
 
@@ -115,9 +115,9 @@ html {
     align-items: center;
     border-radius: 5px;
     background-color: white;
-    color: black;
+    color: #23202C;
     /* border: 1px solid; */
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px #23202C;
 }
 
 .skills .skill-box2 #skill-box2-box1 {
