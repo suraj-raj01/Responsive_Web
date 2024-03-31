@@ -106,6 +106,18 @@ html {
         text-align: center;
     }
 }
+@media(max-width:375px)
+{
+    .skills .skill-box1 #skill {
+        font-size: 14px;
+    }
+    .skills .skill-box1 #work {
+        font-size: 16px;
+    }
+    .skills .skill-box1 #para {
+        font-size: 10px;
+    }
+}
 
 .skills .skill-box2 {
     height: 50vh;

@@ -136,9 +136,14 @@ html {
     .portofolio #box1 {
         height: 30vh;
     }
-
+    .portofolio #box1 #portf {
+        font-size: 12px;
+    }
     .portofolio #box1 #work {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .portofolio #box1 #para {
+        font-size: 12px;
     }
 }
 

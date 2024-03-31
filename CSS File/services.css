@@ -123,7 +123,20 @@ section .box1 #para {
         font-size: 12px;
     }
 }
+@media(max-width:375px)
+{
+    section .box1 #services {
+        font-size: 10px;
+    }
 
+    section .box1 #do {
+        font-size: 16px;
+    }
+
+    section .box1 #para {
+        font-size: 10px;
+    }
+}
 section .box2 {
     margin: 0 auto;
     height: 45vh;

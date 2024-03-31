@@ -372,7 +372,7 @@ html {
 
 @media(max-width:320px) {
     .about #box2 {
-        height: 50%;
+        height: 65%;
         width: 90%;
     }
 
