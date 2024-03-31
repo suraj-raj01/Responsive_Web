@@ -862,3 +862,20 @@ ul {
         width: 35px;
     }
 }
+
+
+/* =======================svg styling======================== */
+
+svg{
+    position: absolute;
+    display: none;
+}
+
+@media (max-width: 430px)
+{
+    svg{
+        position: absolute;
+        display: block;
+        top: -40px;
+    }
+}
