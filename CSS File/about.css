@@ -23,8 +23,8 @@ html {
 }
 
 .about #box1 {
-    height: 60vh;
-    width: 55vh;
+    height: 65vh;
+    width: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,15 +37,15 @@ html {
     border-top-width: 15px; */
     overflow-x: hidden;
     -webkit-mask: url('../Image/mask1.png');
-    -webkit-mask-size: auto 100%;
+    -webkit-mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-    object-fit: contain;
+    object-fit: cover;
 } 
 
 .about #box1 img {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 85%;
     object-fit: contain;
 }
 
@@ -363,10 +363,12 @@ html {
     .about #box2-box2 #btn1 {
         margin-left: 80px;
         padding: 10px 20px;
+        font-size: 12px;
     }
 
     .about #box2-box2 #btn2 {
         padding: 10px 20px;
+        font-size: 12px;
     }
 }
 
@@ -395,12 +397,14 @@ html {
 
     .about #box2-box2 #btn1 {
         margin-left: 140px;
-        padding: 5px 5px;
+        padding: 5px 8px;
+        font-size: 10px;
         font-size: 10px;
     }
 
     .about #box2-box2 #btn2 {
-        padding: 5px 5px;
+        padding: 5px 8px;
+        font-size: 10px;
         font-size: 10px;
     }
 }

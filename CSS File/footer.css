@@ -221,6 +221,10 @@ footer #box2 i:hover {
         height: 40vh;
         width: 100%;
     }
+    footer #box1 p{
+        font-size: 10px;
+        font-weight: bold;
+    }
 
     footer #box2 {
         height: 20vh;

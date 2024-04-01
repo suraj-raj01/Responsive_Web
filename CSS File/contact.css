@@ -143,6 +143,12 @@
         font-size: 12px;
     }
 }
+@media(max-width:320px)
+{
+    .contact .box1 #para{
+        font-size: 10px;
+    }
+}
 
 .contact #box-2 {
     height: 60vh;

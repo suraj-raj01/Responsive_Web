@@ -99,7 +99,9 @@ html {
         display: flex;
         align-items: center;
     }
-
+    .skills .skill-box1 #work {
+        font-size: 18px;
+    }
     .skills .skill-box1 #para {
         font-size: 12px;
         padding: 10px 20px;
