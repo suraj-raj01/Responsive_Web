@@ -372,16 +372,16 @@ html {
     }
 }
 
-@media(max-width:320px) {
+@media(max-width:321px) {
     .about #box2 {
-        height: 65%;
-        width: 90%;
+        height: 250px;
+        width: 310px;
     }
 
     .about #box2-box1 #about {
         font-size: 14px;
         color: #23202C;
-        margin-left: 75px;
+        margin-left: 50px;
     }
 
     .about #box2-box1 #line {
@@ -390,9 +390,10 @@ html {
     }
 
     .about #box2-box1 p {
-        padding: 10px 80px;
+        padding: 10px 0px;
         font-size: 10px;
         font-weight: 800;
+        text-align: center;
     }
 
     .about #box2-box2 #btn1 {
