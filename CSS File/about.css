@@ -40,7 +40,7 @@ html {
     -webkit-mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-    object-fit: cover;
+    object-fit: contain;
 } 
 
 .about #box1 img {
@@ -56,7 +56,7 @@ html {
 
     .about #box1 {
         margin: 0 auto;
-        width: 390px;
+        width: 400px;
         height: 440px;
     }
 }
