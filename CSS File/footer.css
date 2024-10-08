@@ -143,13 +143,13 @@ footer #box2 i:hover {
 
 @media(max-width:430px) {
     footer {
-        height: 50vh;
+        height: 60vh;
         width: 100%;
         display: block;
     }
 
     footer #box1 {
-        height: 30vh;
+        height: 40vh;
         width: 100%;
     }
 
@@ -193,14 +193,14 @@ footer #box2 i:hover {
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:376px) {
     footer {
-        height: 55vh;
+        height: 60vh;
         width: 100%;
     }
 
     footer #box1 {
-        height: 30vh;
+        height: 40vh;
         width: 100%;
     }
 
