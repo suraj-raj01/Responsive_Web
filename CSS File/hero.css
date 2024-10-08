@@ -13,12 +13,12 @@ html {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 /* ===========================navbar start============================= */
 .navbar {
-    height: 12vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -38,6 +38,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+ul img{
+    height: 60px;
+    width: 70px;
 }
 
 .navbar a {
@@ -63,7 +67,7 @@ ul {
     border: 1px solid #23202C;
     background-color: #23202C;
     color: white;
-    padding: 15px 25px;
+    padding: 12px 25px;
 }
 
 .navbar #end a:hover {
@@ -487,6 +491,7 @@ ul {
     .hero {
         height: 100vh;
         display: block;
+        background-color: white;
     }
 
     .hero #box1 {
@@ -519,7 +524,6 @@ ul {
         padding: 8px 13px;
         border-radius: 3px;
     }
-
     .hero #box1 #box-1 span {
         font-size: 12px;
         padding: 8px 15px;
@@ -613,6 +617,7 @@ ul {
 .hero #box2 #box2-box-1 img{
     height: 80%;
     width: 85%;
+    object-fit: contain;
 }
 .hero #box2 #box2-box-1 {
     height: 100%;
@@ -751,8 +756,8 @@ ul {
     }
 
     .hero #box2 #box2-box-1 img {
-        height: 350px;
-        width: 290px;
+        height: 90%;
+        width: 80%;
         filter: none;
         border-radius: 70px;
         border-top-right-radius: 0px;
