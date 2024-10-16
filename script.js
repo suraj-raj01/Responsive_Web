@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('#').click(function(){
+        $('.hero').fadeOut(2000)
+    })
+    $('#about').click(function(){
+        $('.about').fadeIn(2000);
+    })
+    $("#btn2").click(function(){
+        $('p').fadeToggle(2000);
+    })
+})
